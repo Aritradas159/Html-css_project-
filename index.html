@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Space Auth - Login & Signup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="nebula"></div>
+  <div class="auth-container">
+    <div class="tabs">
+      <button class="tab active" id="login-tab">Login</button>
+      <button class="tab" id="signup-tab">Signup</button>
+    </div>
+    <form id="login-form" class="auth-form">
+      <h2>Welcome Back, Explorer!</h2>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit" class="glow-btn">Launch</button>
+    </form>
+    <form id="signup-form" class="auth-form hidden">
+      <h2>Join the Mission!</h2>
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit" class="glow-btn">Ignite</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
